@@ -1,8 +1,14 @@
 GIT info: http://rogerdudler.github.io/git-guide/
 git clone username@host:/path/to/repository
+git commit -a    (vim quit: Esc :wq Enter)
+git push
 
 
+store pass git 
+config remote.origin.url https://{USERNAME}:{PASSWORD}@github.com/{USERNAME}/{REPONAME}.git
 
+
+---------
 add & commit
 You can propose changes (add it to the Index) using
 git add <filename>
