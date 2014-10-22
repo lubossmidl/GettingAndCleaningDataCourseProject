@@ -2,6 +2,7 @@
 
 Lubos Smidl
 
+## Main Info
 script run_analysis.R load all training/testing date, merge it together and compute average of mean and stv by each subject and activity
 all the steps are described in script run_analysis.R
 
