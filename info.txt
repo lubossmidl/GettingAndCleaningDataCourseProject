@@ -1,5 +1,6 @@
 GIT info: http://rogerdudler.github.io/git-guide/
 git clone username@host:/path/to/repository
+git add file.R
 git commit -a    (vim quit: Esc :wq Enter)
 git push
 
