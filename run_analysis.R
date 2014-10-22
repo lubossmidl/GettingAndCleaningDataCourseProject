@@ -6,24 +6,24 @@ require(plyr)  #join, ...
 
 print("read training data")
 # read training data
-training_x = read.csv("../UCI HAR Dataset/train/X_train.txt", sep="", header=FALSE)
+training_x = read.csv("UCI HAR Dataset/train/X_train.txt", sep="", header=FALSE)
 #head(training)
-training_y = read.csv("../UCI HAR Dataset/train/Y_train.txt", sep="", header=FALSE)
-training_s = read.csv("../UCI HAR Dataset/train/subject_train.txt", sep="", header=FALSE)
+training_y = read.csv("UCI HAR Dataset/train/Y_train.txt", sep="", header=FALSE)
+training_s = read.csv("UCI HAR Dataset/train/subject_train.txt", sep="", header=FALSE)
 
 print("read testing data")
 # read testing data
-testing_x = read.csv("../UCI HAR Dataset/test/X_test.txt", sep="", header=FALSE)
+testing_x = read.csv("UCI HAR Dataset/test/X_test.txt", sep="", header=FALSE)
 #head(testing)
-testing_y = read.csv("../UCI HAR Dataset/test/Y_test.txt", sep="", header=FALSE)
-testing_s = read.csv("../UCI HAR Dataset/test/subject_test.txt", sep="", header=FALSE)
+testing_y = read.csv("UCI HAR Dataset/test/Y_test.txt", sep="", header=FALSE)
+testing_s = read.csv("UCI HAR Dataset/test/subject_test.txt", sep="", header=FALSE)
 
 print("read metadata")
 # read activity file
-activity = read.csv("../UCI HAR Dataset/activity_labels.txt", sep="", header=FALSE, col.names = c("activityid", "activity"))
+activity = read.csv("UCI HAR Dataset/activity_labels.txt", sep="", header=FALSE, col.names = c("activityid", "activity"))
 
 # read features 
-features = read.csv("../UCI HAR Dataset/features.txt", sep="", header=FALSE)
+features = read.csv("UCI HAR Dataset/features.txt", sep="", header=FALSE)
 #head(features)
 
 
